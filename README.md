@@ -3,7 +3,7 @@
 This project aims to design and implement a cost-effective practical quantum random number generator (QRNG) based on vacuum fluctuation. 
 
 The picture of the QRNG is shown as follow. The QRNG comprises  parts: laser diode for coherent light, balanced homodyne detector (BHD) and Raspberry Pi for post extraction, which are all off-the-shelf products.
-![QRNG](pic/QRNG.JPG)
+![QRNG](pic/QRNG.jpg)
 The amplitude and phase quadratures of laser diode both fluctuate independently, which is also named as shot noise.
 
 The BHD implement homodyne detection after 50/50 beamsplitter equally divide the incident laser. It amplifies the magnitude of signal beam (here refers to vacuum state) with smaller power via the much stronger local oscillator (LO) beam whilst noise of LO is suppressed. Here the phase difference of signal beam and LO beam is $\phi=0$ and the output voltage of BHD follows Gaussian distribution.
